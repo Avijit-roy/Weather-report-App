@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Real Time Weather App</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <div class="weather-app" id="app">
+    <div class="search-bar">
+      <input type="text" placeholder="Enter city name" id="_CityName" />
+      <button id="myButton"><i class="search-icon">🔍</i></button>
+    </div>
+    <div class="weather-info">
+      <p class="date" id="_Date">May 29, 2024</p>
+      <h1 class="city" id="_City">City</h1>
+      <div class="weather-icon">
+        <img id="_TempImage" src="https://cdn-icons-png.flaticon.com/512/1163/1163736.png" alt="Clouds" />
+      </div>
+      <p class="weather-description" id="_Wedes">Weather description</p>
+      <h2 class="temperature" id="_Temp">0°C</h2>
+      <div class="temp-details">
+        <div class="highs">
+          <p>HIGHS</p>
+          <h3 id="_Highs">0.00°C</h3>
+        </div>
+        <div class="lows">
+          <p>LOWS</p>
+          <h3 id="_Lows">0.00°C</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
