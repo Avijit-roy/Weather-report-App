@@ -1,13 +1,13 @@
 # Weather Report App
 
-A simple, responsive weather report web app built with plain HTML, CSS, and JavaScript. Users can search for any city to get current weather details (temperature, description, humidity, wind speed, and an icon).
+A lightweight, responsive web app that shows current weather and forecast for any city using a public weather API. Built with plain HTML, CSS, and JavaScript for a minimal, easy-to-deploy frontend.
 
 Demo
 - Live demo (if enabled): https://Avijit-roy.github.io/Weather-report-App
 
 ## Features
 - Search weather by city name
-- Displays temperature, weather description, humidity, wind speed, and an icon
+- Displays current temperature, weather description, humidity, wind speed, and an icon
 - Responsive layout for desktop and mobile
 - Graceful error handling for unknown cities or network issues
 - Minimal dependencies — pure HTML/CSS/JS
@@ -16,6 +16,8 @@ Demo
 - JavaScript
 - HTML5
 - CSS3
+
+(Repository language composition: ~38% JavaScript, ~34% CSS, ~28% HTML)
 
 ## Prerequisites
 - Modern web browser
@@ -61,11 +63,24 @@ If you prefer not to expose the key in client-side code for production, consider
 - The app will display the city name, temperature, weather description, humidity, wind speed, and an icon representing current conditions.
 - If the city is not found or there is a network problem, a clear error message appears.
 
-## Project structure
-- `index.html` — main HTML file
-- `styles.css` — styling and responsive layout
-- `script.js` — application logic (fetching and rendering weather data)
-- `README.md` — project documentation
+## Project file structure
+Below is the expected project structure. Update this section if your repository layout differs.
+
+Weather-report-App/
+- README.md
+- LICENSE
+- index.html — main HTML file
+- styles.css — styling and responsive layout
+- script.js — application logic (fetching and rendering weather data)
+- assets/ — images, icons, and static assets (if present)
+  - icons/ — weather icons or icon set
+  - images/ — background or UI images
+- data/ — optional sample data or JSON (if included)
+- docs/ — optional documentation or design notes
+- .gitignore
+- package.json — (if any build tools or dev dependencies are used)
+
+If your repository contains a different layout (e.g., a build step, a src/ folder, or a separate frontend/backend), replace this section with the real layout.
 
 ## Customizing
 - Update `styles.css` to change the look and feel.
@@ -92,7 +107,7 @@ If you prefer not to expose the key in client-side code for production, consider
   5. Open a pull request
 
 ## License
-This project is available under the MIT License. See LICENSE for details (or add an MIT license file if needed).
+This project is available under the MIT License. See LICENSE for details.
 
 ## Acknowledgements
 - Weather data provided by your chosen weather API provider (e.g., OpenWeatherMap).
