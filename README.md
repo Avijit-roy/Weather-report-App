@@ -13,7 +13,7 @@ A lightweight, responsive weather application that delivers current conditions a
 
 ## Live Demo
 
-🌐 **[View Live Demo](https://Avijit-roy.github.io/Weather-report-App)**
+🌐 **[View Live Demo](https://avijit-roy.github.io/Weather-report-App/)**
 
 ## Tech Stack
 
